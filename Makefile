@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 
 test:
-	py.test
+	python -m pytest --junitxml report.xml
 
 test-deps:
 	pip install -r requirements.txt

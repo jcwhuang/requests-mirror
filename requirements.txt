@@ -1,2 +1,2 @@
-pytest
-sphinx
+pytest==6.2.5
+sphinx==7.3.7
